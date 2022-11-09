@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 07</title>
+</head>
+<body>
+
+    
+    <script>
+        
+
+        let nomeProduto = prompt('Digite o Produto.');
+        let valorProduto = prompt('Digite o valor do Produto.');
+        let imposto = prompt('Digite as taxas de imposto.');
+        let taxa = prompt('Digite a taxa do distribuidor.');
+        
+        let precofinal = (Number(valorProduto)+Number(imposto)+Number(taxa));
+        let juros = Number(imposto)+Number(taxa);
+
+        window.document.write(`Produto: ${nomeProduto} </br>`);
+        window.document.write(`Valor do produto: ${valorProduto} </br>`);
+        window.document.write(`Juros totais R$: ${juros} </br>`);
+        window.document.write(`Valor final R$: ${precofinal} </br>`);
+        
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04</title>
+</head>
+<body>
+   
+    <script>
+      
+        let nomeCorrentista = prompt('Digite o nome do correntista.');
+        let banco = prompt('Digite o nome do banco.');
+        let nmrConta = prompt('Digite o número da conta.');
+        let saldo = prompt('Digite o saldo atual.');
+        let credito = prompt('Digite o total de cheques a creditar.');
+        let limiteCredito = prompt('Digite o limite de crédito disponível.');
+        let debito = prompt('Digite o valor dos cheques a debitar.');
+        
+        
+        let saldoDisponivel = (Number(saldo)+Number(credito)+Number(limiteCredito))-Number(debito);
+
+        window.document.write(`Nome do Correntista: ${nomeCorrentista} </br>`);
+        window.document.write(`Nome do Banco: ${banco} </br>`);
+        window.document.write(`Número da Conta: ${nmrConta} </br>`);
+        window.document.write(`Saldo disponível: ${saldoDisponivel} </br>`);
+        
+    </script>
+</body>
+</html>

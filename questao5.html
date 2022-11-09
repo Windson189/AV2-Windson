@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 05</title>
+</head>
+<body>
+    <script>
+        let nome = prompt('Digite o nome.');
+        let hotDog = prompt('Digite a quantidade de Hot Dogs');
+        let hamburguer = prompt('Digite a quantidade de Hambúrguers.');
+        let cheeseburguer = prompt('Digite a quantidade de cheeseburguers.');
+        let refrigeranteLata = prompt('Digite a quantidade de refrigerantes .');
+        let batatasFritas = prompt('Digite a quantidade de batatasFritas.');
+        
+        dogao = Number (1.00)
+        hamburgao = Number (1.30)
+        cheese = Number (1.50)
+        refri = Number (1.00)
+        batatinhas = Number (0.80)
+        
+        let totalPedido = (Number(hotDog) * Number(dogao)) + (Number(hamburguer) * Number (hamburgao)) + (Number(cheeseburguer) * 
+        Number(cheese)) + (Number(refrigeranteLata) * Number(refri)) + (Number(batatasFritas) * Number(batatinhas));
+
+        window.document.write("Nome" + nome + "</br>");
+        window.document.write(`Valor R$: ${totalPedido} </br>`);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 01</title>
+</head>
+<body>
+    
+    <script>
+        let nomeAluno = prompt('Digite o nome do aluno.');
+        let nota1 = prompt('Digite sua primeira nota.');
+        let nota2 = prompt('Digite sua segunda nota.');
+        let nota3 = prompt('Digite sua terceira nota.');
+        let disciplina = prompt('Digite o nome da disciplina.');
+        let turma = prompt('Digite sua turma.');
+        
+        let media = ((Number(nota1)+Number(nota2)+Number(nota3))/Number(3));
+
+        window.document.write(`Aluno: ${nomeAluno} </br>`);
+        window.document.write(`Disciplina: ${disciplina} </br>`);
+        window.document.write(`Turma: ${turma} </br>`);
+        window.document.write(`Média Final: ${media} </br>`);
+        
+    </script>
+</body>
+</html>
